@@ -73,6 +73,5 @@ function fecharPedido() {
         botaoFechar.classList.add("escondido");
         botaoFechar.innerHTML = "Fechar Pedido";
 
-        const wpp= nomeQualquer "https://wa.me/552198917378"
     }
 }
