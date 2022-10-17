@@ -1,4 +1,4 @@
-let pratoEscolhido, sobremesa, total = 0;
+let pratoEscolhido, prato, bebida,sobremesa, total = 0 ;
 
 function escolherPrato(botao) {
     const botaoSelecionado = document.querySelector(".pratos .selecionado");
@@ -58,6 +58,7 @@ function escolherSobremesa(botao3) {
     console.log(total)
 
 
+
     fecharPedido();
 }
 
@@ -66,10 +67,12 @@ function fecharPedido() {
         pratoEscolhido !== undefined &&
         bebidaEscolhida !== undefined &&
         sobremesaEscolhido !== undefined
+        
     ) {
         const botaoFechar = document.querySelector(".botao");
         botaoFechar.classList.add("escondido");
         botaoFechar.innerHTML = "Fechar Pedido";
+
+        const wpp= nomeQualquer "https://wa.me/552198917378"
     }
 }
-
