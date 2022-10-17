@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@100;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Driven Eats</title>
+  </head>
+  <body>
+    <div class="pagina">
+      <div class="conteudo-principal">
+        <div class="nome">DrivenEats</div>
+        <p class="comida-tempo">Sua comida em 6 minutos</p>
+      </div>
+      <br />
+      <div class="opcoes">
+        <div class="mensagem">Primeiro, seu prato</div>
+        <br />
+        <div class="pratos">
+          <div class="prato 1" onclick="escolherPrato(this)">
+            <img src="./img/foodiesfeed.com_pork-ribs-with-knife.jpg" />
+            <h1 class="nome-prato">pork-ribs</h1>
+            <h2>Uma maravilha, chefe da casa</h2>
+            <p class="valor">R$ 19,90</p>
+            <ion-icon name="checkmark-circle"></ion-icon>
+          </div>
+          <div class="prato 2" onclick="escolherPrato(this)">
+            <img src="./img/foodiesfeed.com_fresh-beef-burger-takeaway.jpg" />
+            <h1 class="nome-prato">beef-burguer</h1>
+            <h2>Um burguer lássico </h2>
+            <p class="valor">R$ 16,00</p>
+            <ion-icon name="checkmark-circle"></ion-icon>
+          </div>
+          <div class="prato 3" onclick="escolherPrato(this)">
+            <img
+              src="./img/foodiesfeed.com_pizza-with-pineapple-and-thin-crust.jpg"
+            />
+            <h1 class="nome-prato">pizza with pineapple</h1>
+            <h2>And thin crust</h2>
+            <p class="valor">R$ 15,50</p>
+            <ion-icon name="checkmark-circle"></ion-icon>
+          </div>
+          <div class="prato 4" onclick="escolherPrato(this)">
+            <img
+              src="./img/foodiesfeed.com_fried-egg-with-guacamole-sandwiches.jpg"
+            />
+            <h1 class="nome-prato">fried egg</h1>
+            <h2>With guacamole sandwiches</h2>
+            <p class="valor">R$ 13,00</p>
+            <ion-icon name="checkmark-circle"></ion-icon>
+          </div>
+        </div>
+        <br />
+        <div class="mensagem">Agora, sua bebida</div>
+        <br />
+        <div class="bebidas">
+          <div class="bebida 1" onclick="escolherBebida(this)">
+            <img src="./img/foodiesfeed.com_lime-juice.jpg" />
+            <h1 class="nome-bebida">lime-juice </h1>
+            <h2>Aquele sabor de limão</h2>
+            <p class="valor">R$ 10,50</p>
+            <ion-icon name="checkmark-circle"></ion-icon>
+          </div>
+          <div class="bebida 2" onclick="escolherBebida(this)">
+            <img src="./img/foodiesfeed.com_watermelon-juice.jpg" />
+            <h1 class="nome-bebida">Watermelon juice</h1>
+            <h2>Para refrescar</h2>
+            <p class="valor">R$ 16,90</p>
+            <ion-icon name="checkmark-circle"></ion-icon>
+          </div>
+          <div class="bebida 3" onclick="escolherBebida(this)">
+            <img src="./img/foodiesfeed.com_cappuccino-with-sweet-waffle.jpg" />
+            <h1 class="nome-bebida">cappuccino</h1>
+            <h2>Acompanha um waffle maravilhoso</h2>
+            <p class="valor">R$ 9,90</p>
+            <ion-icon name="checkmark-circle"></ion-icon>
+          </div>
+          <div class="bebida 4" onclick="escolherBebida(this)">
+            <img src="./img/foodiesfeed.com_fresh-lime-margarita.jpg" />
+            <h1 class="nome-bebida">fresh lime margarita</h1>
+            <h2>Alegria do dia</h2>
+            <p class="valor">R$ 11,90</p>
+            <ion-icon name="checkmark-circle"></ion-icon>
+          </div>
+        </div>
+        <br />
+        <div class="mensagem">Por fim, sua sobremesa</div>
+        <br />
+        <div class="sobremesas">
+          <div class="sobremesa 2" onclick="escolherSobremesa(this)">
+            <img src="./img/foodiesfeed.com_smoothie-from-banana-kiwi-and-strawberry-on-a-wooden-background.jpg" />
+            <h1 class="nome-doce">smoothie from banana kiwi and strawberry</h1>
+            <h2>Muito sabor</h2>
+            <p class="valor">R$ 18,90</p>
+            <ion-icon name="checkmark-circle"></ion-icon>
+          </div>
+          <div class="sobremesa 3" onclick="escolherSobremesa(this)">
+            <img src="./img/foodiesfeed.com_carrot-cake-with-fresh-fruits.jpg" />
+            <h1 class="nome-doce">carrot cake</h1>
+            <h2>Com frutas fresquinhas</h2>
+            <p class="valor">R$ 15,90</p>
+            <ion-icon name="checkmark-circle"></ion-icon>
+          </div>
+          <div class="sobremesa 4" onclick="escolherSobremesa(this)">
+            <img src="./img/foodiesfeed.com_salted-caramel-dessert-with-coffee.jpg" />
+            <h1 class="nome-doce">caramel dessert</h1>
+            <h2>salted-caramel-dessert-with-coffee</h2>
+            <p class="valor">R$ 12,90</p>
+            <ion-icon name="checkmark-circle"></ion-icon>
+          </div>
+          <div class="sobremesa 5" onclick="escolherSobremesa(this)">
+            <img src="./img/foodiesfeed.com_homemade-lemon-cake.jpg" />
+            <h1 class="nome-doce">lemon cake</h1>
+            <h2>homemade</h2>
+            <p class="valor">R$ 17,00</p>
+            <ion-icon name="checkmark-circle"></ion-icon>
+          </div>
+        </div>
+      </div>
+      <div class="fecharPedido">
+        <button onclick="fecharPedido()" class="botao">
+          Selecione os 3 itens para fechar o pedido
+        </button>
+      </div>
+    </div>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
